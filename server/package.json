@@ -5,10 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.20.0",
     "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4",
     "socket.io": "^4.7.5"
   },
+  "type": "module",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
