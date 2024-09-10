@@ -1,7 +1,10 @@
-import "./App.css";
-
+import Authentication from "./Features/Auth/pages/Authentication";
 function App() {
-  return <>hii</>;
+  return (
+    <>
+      <Authentication />
+    </>
+  );
 }
 
 export default App;
