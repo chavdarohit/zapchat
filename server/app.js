@@ -12,7 +12,7 @@ dotenv.config();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => res.send("Hello from the server!"));
+app.get("/", (req, res) => res.send("Hello from the server! this is rc"));
 
 io.on("connection", (socket) => {
   console.log("A user connected");
